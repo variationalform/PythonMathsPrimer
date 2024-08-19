@@ -9,6 +9,16 @@ beamer/**
 !beamer/*.tex
 !beamer/*.pdf
 !beamer/makefile
+
+!notebook
+notebook/**
+!notebook/gfx
+notebook/gfx/**
+!notebook/gfx/*.eps
+!notebook/gfx/*.jpg
+#notebook/gfx/**
+!notebook/*.ipynb
+
 # notebooks/*.DS_Store
 # notebooks/gfx/*.DS_Store
 # notebooks/data/.DS_Store
