@@ -27,6 +27,14 @@ GPL 3.0 applies by default to all files on this repository that do not explicitl
 claim their own licence (e.g. Creative Commons).
 
 
+#### Binder
+
+you can run the notebook on binder using this:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/variationalform/PythonMathsPrimer/HEAD)
+ 
+
+
 
 
 #### Git Notes
