@@ -5,4 +5,4 @@ pandas
 matplotlib
 seaborn[stats]
 ipython[all]
-PIL
+Pillow
