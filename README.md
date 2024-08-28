@@ -33,7 +33,7 @@ you can run the notebook on binder using this:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/variationalform/PythonMathsPrimer/HEAD)
  
-
+but YMMV - especially on the last part with the image compression...
 
 
 
