@@ -3,6 +3,8 @@
 # then add in what we want
 !README.md
 !.gitignore
+# this next created with 'pip freeze > requirements.txt'
+!requirements.txt
 !beamer
 #!beamer/**
 beamer/**
