@@ -9,8 +9,10 @@ Simon Shaw
 - <https://www.brunel.ac.uk/people/simon-shaw>.
 - <https://github.com/variationalform>
 
-
 A few code fragments in a jupyter notebook to show how to use python in some generic and entry level areas of maths. 
+
+**Version: ** *19 August 2026* (Updated from *August 2024*)
+
 
 
 ## Contents
@@ -32,7 +34,7 @@ claim their own licence (e.g. Creative Commons).
 you can run the notebook on binder using this:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/variationalform/PythonMathsPrimer/HEAD)
- 
+
 but YMMV - especially on the last part with the image compression...
 
 
