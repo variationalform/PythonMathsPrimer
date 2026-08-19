@@ -180,8 +180,8 @@
 
 
 \title[Python for Mathematics]
-      {Introduction to Python for Mathematics\\ A Crash Course}
-\subtitle[beamer]{}
+      {Introduction to Python for Mathematics} %:\\ A Crash Course}
+\subtitle[beamer]{A Crash Course}
 \institute[Maths]
           {Mathematics}
 \author[Shaw]{Simon Shaw
@@ -291,7 +291,7 @@ Consider the tourist economy in a small resort. The major industries are
 \end{description}
 
 \pause
-The turnover of each of these industries will contain cash inputs from thenselves
+The turnover of each of these industries will contain cash inputs from themselves
 and the others, as well as from external demand like tourists, other industrial
 and commercial sectors, etc.
 
@@ -629,7 +629,7 @@ Let's look now at how to plot graphs
 \begin{frame}[fragile]\frametitle{Plotting in 2D}
 
 \begin{block}{We jump straight in.}
-Plot $\cos(2\pi x)$ in solid blue and $\exp(\sin(4\pi x))$ in dashed red for $x\in[-1,5]$
+Plot $\cos(2\pi x)$ in solid blue and $\exp\big(\sin(4\pi x)\big)$ in dashed red for $x\in[-1,5]$
 \end{block}
 
 \vfill
@@ -674,8 +674,8 @@ plt.savefig('my2Dplot.eps', dpi=600)
 \begin{frame}[fragile]\frametitle{Exercise}
 
 \begin{block}{In python\ldots}
-Plot $2^{3\sin(3\pi x)}$ in solid dash-dot blue and
-$\ln\big(1.2+\sin(3\pi x)\big)$ in dotted red for $x\in[-4,3]$
+Plot $\blue 2^{3\sin(3\pi x)}$ in solid dash-dot blue and
+$\blue \ln\big(1.2+\sin(3\pi x)\big)$ in dotted red for $\blue x\in[-4,3]$
 \end{block}
 
 
@@ -735,21 +735,21 @@ We assume the UK setup where students attend for three years.
 \begin{center}\begin{tabular}{|l|l|l|l|}
 NAME  &  D.O.B.  & GENDER &  DEPARTMENT   \\\hline
 \vdots\phantom{\hspace{3cm}}  &  \vdots  & \vdots &  \vdots   \\
-\only<1>{Ringo Starr}  &  \only<3>{\gray} 26/07/43  & \only<3>{\gray}M & \only<3>{\gray} Music   \\
+\only<1>{Ringo Starr}  &  \only<3>{\gray}26/07/43  & \only<3>{\gray}M & \only<3>{\gray}Music   \\
 \only<1>{Al Gebra}  &  \only<3>{\gray}12/08/05  & \only<3>{\gray}F &  \only<3>{\gray}Maths   \\
 \only<1>{Sandie Shaw}  &  \only<3>{\gray}16/02/38  & \only<3>{\gray}F &  \only<3>{\gray}Puppetry   \\
-\only<1>{Michael Mouse} & \only<3>{\red} 17/04/92  & \only<3>{\red} F & \only<3>{\red} Computing \\
+\only<1>{Michael Mouse} & \only<3>{\red}17/04/92  & \only<3>{\red}F & \only<3>{\red}Computing \\
 \only<1>{Mr Pink}  &  \only<3>{\gray}4/12/56  & \only<3>{\gray}M &  \only<3>{\gray}Criminology   \\
 \only<1>{L.O. Gear}  &  \only<3>{\gray}11/9/23  & \only<3>{\gray}F &  \only<3>{\gray}Engineering   \\
 \only<1>{Donkey Kong}  &  \only<3>{\gray}23/10/73  & \only<3>{\gray}M &  \only<3>{\gray}Video Games   \\
 \vdots  &  \vdots  & \vdots &  \vdots   \\
 \end{tabular}\end{center}
 
-\bigskip
-\only<2>{\alert{The names are erased --- can one line dentify the person?}}
+\smallskip
+\only<2>{\alert{The names are erased --- can one line identify the person?}}
 \only<3>{\alert{Is this enough information to identify the person?}}
 
-\bigskip
+\smallskip
 \only<3>{\alert{How anonymous is a dataset like this?}}
 
 
@@ -792,9 +792,9 @@ that line of anonymised data occurs just once in the department.
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 %  - - - - - - - - - - - - - - - - - - - - - - - -      FRAME
-\begin{frame}[fragile]\frametitle{Planning the code}
+\begin{frame}[fragile]\frametitle{Simulation --- Planning the code}
 
-\pause\medskip
+\pause
 We are going to generate a list of $d = 2190$ zeros.
 
 \pause\medskip
